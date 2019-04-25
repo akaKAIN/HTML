@@ -29,9 +29,13 @@ a {
 	border-radius: 50%;
 }
 
+.catalog_list a:first-letter {
+	color: darkred;
+	font-size: 200px;
+}
 .product h3 {
 	color: black;
-	font-size: 18;
+	font-size: 18px;
 	font-weight: 400;
 	background-color: #eaeaea;
 }
@@ -93,9 +97,18 @@ a {
 	width: 300px;
 }
 
+.contacts
+.name_block text:first-letter {
+	text-transform: uppercase;
+	color: red;
+}
+.contacts .name:focus {
+	color: green;
+}
 
-.contacts .email:focus {
-	background-color: lightblue;
+.contacts
+.email:focus {
+	background-color: powderblue;
 	color: black;
 	font-weight: 600;
 }
@@ -106,6 +119,20 @@ a {
 	font-size: 12px;
 	background-color: lightgray;
 }
+
+table {
+	border: 1px solid black;
+	height: 60px;
+	width: 500px;
+	text-align: left;
+
+}
+
+tr:nth-child(2n) {
+	background-color: lightgray;
+
+}
+
 
 .footer {
 	text-align: center;
