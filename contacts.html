@@ -6,61 +6,66 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<ul class="menu">
-    <li><a href="index.html">Главная</a></li>
-    <li><a href="catalog.html">Каталог</a></li>
-    <li><a href="contacts.html">Контакты</a></li>
-</ul>
-<hr>
-<div class="contacts">
-    <form action="">
- 
-        <h2>Напишите нам</h2>
-        <p><b>Ваши контактные данные:</b>
+    <div class="header">
+        <img class="logo" src="images/logo.jpg">
+        <ul class="menu">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+    </div>
+    <hr>
+    <div class="contacts">
+        <form action="">
+           
+            <h2>Напишите нам</h2>
+            <b>Ваши контактные данные:</b>
             <br>
             Имя и фамилия:<br>
-            <input type="text" placeholder="Иван Иванов">
+            <input class="name" type="text" placeholder="Иван Иванов">
             <br>
             
             email:<br>
-            <input type="email" placeholder="your@e-mail.ru">
+            <input class="email" type="email" placeholder="your@e-mail.ru">
             <br>
             Тема обращения:
-            <select>
-                <option value="#">Выбор товара</option>
-                <option value="#">Скидки</option>
-                <option value="#">Доставка</option>
-                <option value="#">Служба поддержки</option>
-                <option value="#">Гарантийные случаи</option>
-                <option value="#">Не&nbsp;гарантийные случаи</option>
-            </select>
-            <br>
-            <br>
-            Ваше сообщение:<br>
-            <textarea cols="35" rows="6" placeholder="..."></textarea>
-        </p>
-        <button type="submit">Отправить</button>
-        <button type="reset">Очистить форму</button>
-    </form>
+            
+                <select>
+                    <option value="#">Выбор товара</option>
+                    <option value="#">Скидки</option>
+                    <option value="#">Доставка</option>
+                    <option value="#">Служба поддержки</option>
+                    <option value="#">Гарантийные случаи</option>
+                    <option value="#">Не&nbsp;гарантийные случаи</option>
+                </select>
+                <br>
+                <br>
+                Ваше сообщение:<br>
+                <textarea cols="35" rows="6" placeholder="..."></textarea>
+                <div>
+                    <button type="submit">Отправить</button>
+                    <button type="reset">Очистить форму</button>
+                </div>
+            </form>
 
-    <script class="yandex-map" type="text/javascript" charset="utf-8" async
+            <script class="yandex-map" type="text/javascript" charset="utf-8" async
             src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aacd82b34989368d7856817ad1ba742e65c0980e6a19610c1421c4449140edaf4&amp;width=400&amp;height=300&amp;lang=ru_RU&amp;scroll=true"></script>
-    <h3>Адрес:</h3>
-    г. Владивосток, Океанские проспект д.13
-    <br>
-    email: robo-set@slaveseller.com
-    <br>
-    <br>
-    контактные телефоны:
-    <ul>
-        <li> 666-666</li>
-        <li>гор.линия(беспл.): 8-800-666-6666</li>
-    </ul>
-</div>
-<footer>
-    <hr>
-    Copyright &copy;&nbsp;Михаил Михайлов<br>
-    Все права защищены.
-</footer>
-</body>
-</html>
+            <h3>Адрес:</h3>
+            г. Владивосток, Океанские проспект д.13
+            <br>
+            email: robo-set@slaveseller.com
+            <br>
+            <br>
+            контактные телефоны:
+            <ul>
+                <li> 666-666</li>
+                <li>гор.линия(беспл.): 8-800-666-6666</li>
+            </ul>
+        </div>
+        <div class="footer">
+            <hr>
+            Copyright &copy;&nbsp;Михаил Михайлов<br>
+            Все права защищены.
+        </div>
+    </body>
+    </html>
