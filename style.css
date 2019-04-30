@@ -12,19 +12,19 @@ a {
 	font-size: 16px;
 }
 
+h1, h2 {
+	margin: 20px 10px;
+}
+
 .container {
 	width: 90%;
 	margin: 0 auto;
 }
-.container h1,
-.container h2 {
-	margin: 30px;
-}
-
 
 .logo {
 	margin-left: 90px;
 	margin-bottom: 10px;
+	border-radius: 30%;
 
 }
 
@@ -35,6 +35,8 @@ a {
 	height: 100px;
 	border-bottom: 2px solid darkgray;
 	margin: 10px;
+	background-image: url(images/fon.png);
+	background-size: 20%;
 
 }
 .menu ul {
@@ -42,7 +44,7 @@ a {
 }
 .menu li {
 	float: left;
-	padding: 30px;
+	margin: 20px;
 	list-style-type: none;
 }
 .menu a {
@@ -55,28 +57,42 @@ a {
 	font-weight: 600;
 }
 
+.catalog_list {
+	display: flex;
+	justify-content: flex-start;
+  	flex-wrap: wrap;
+}
+
+.catalog_element {
+	flex: 4 1 10em;
+	margin: 20px;
+	padding: 10px;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+}
 .catalog_list
 .short_descriptions_text {
 	color: #707070;
 	font-size: 14px;
 	font-style: italic;
 	line-height: 16px;
-
-}
-
-.catalog_element {
-	border: 1px solid black;
 	margin: 10px;
-	padding: 10px;
-}
-
-.catalog_list img {
-	
-}
-.catalog_list a {
+	width: 50%;
 
 }
+.catalog_element img {
+	margin: 10px;
+	border-radius: 50%;
+}
+.catalog_element a {
+	margin: 10px;
+}
 
+
+.product {
+	margin: 20px;
+}
 .product h3 {
 	color: black;
 	font-size: 18px;
@@ -89,6 +105,7 @@ a {
 	border-color: gray;
 	border-width: 1px 1px 2px 2px;
 	border-style: solid;
+	margin-right: 10px; 
 }
 .product img:hover {
 	border-color: transparent;
@@ -104,11 +121,43 @@ a {
 }
 
 .product
-.short_descriptions_text {
+.product_lebel {
+	display: flex;
+	justify-content: space-between;
+}
+
+.product
+.product_item {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+
+
+.item_text {
+	width: 90%;
 	color: #707070;
 	font-size: 14px;
 	font-style: italic;
 	line-height: 16px;
+	text-align: justify;
+}
+
+
+.product button {
+	background-color: lightgray;
+	height: 40px;
+	width: 120px;
+	margin-bottom: 5px;
+
+
+}
+.product button:hover {
+	background-color: darkgray;
+}
+.product button:active {
+	font-weight: 600;
 }
 
 .product
@@ -122,9 +171,10 @@ a {
 }
 .product
 .full_descriptions_text:first-letter,
-.short_descriptions_text:first-letter {
-	font-size: 26px;
-	color: black;
+.item_text:first-letter {
+	font-size: 20px;
+	color: darkred;
+	font-weight: 600;
 }
 
 .contacts input,
@@ -138,6 +188,7 @@ a {
 
 .contacts {
 	line-height: 24px;
+	margin: 10px;
 }
 
 .contacts input {
@@ -162,6 +213,8 @@ a {
 }
 
 .contacts button {
+	margin-bottom: 20px;
+	margin-right: 5px;
 	height: 40px;
 	width: 150px;
 	font-size: 12px;
