@@ -146,6 +146,7 @@ a {
 
 .gap_header_menu_left {
     list-style-type: none;
+    border-bottom: 3px solid #6c6c6c;
 }
 
 
@@ -161,6 +162,7 @@ a {
     color: #212121;
     font-size: 36px;
     font-weight: 700;
+    border-bottom: 5px solid #212121;
 }
 
 .gap_header_menu_right {
@@ -312,4 +314,11 @@ a {
     height: 270px;
     width: 270px;
 
+}
+
+.gap2_header {
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
