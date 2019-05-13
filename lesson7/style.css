@@ -106,6 +106,7 @@ a {
     align-items: center;
     justify-content: center;
     margin-bottom: 14px;
+    align-self: flex-end;
 }
 
 .circle {
@@ -317,6 +318,7 @@ a {
     background-size: contain;
     background-position: center;
     box-sizing: border-box;
+    margin-bottom: 30px;
     
 }
 
@@ -345,4 +347,25 @@ a {
 
 .gap2_box:hover .box_cont {
     display: flex;
+}
+
+.slider_table {
+    height: 800px;
+    background-size: contain;
+    background-position: center;
+    padding: 0 100px;
+    display: flex;
+        
+}
+
+.tr_table {
+    color: #e53935;
+}
+
+.slider_text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
 }
