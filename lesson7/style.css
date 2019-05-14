@@ -12,13 +12,13 @@ a {
 }
 
 .container {
-    width: 1366px;
+    max-width: 1366px;
     margin: 0 auto;
 }
 
 .slider_chair {
-    padding-left: 98px;
-    padding-right: 98px;
+    padding-left: 8%;
+    padding-right: 8%;
     height: 800px;
     background-image: url(img/slider-img.jpg);
     display: flex;
@@ -27,7 +27,7 @@ a {
 }
 
 .header {
-    margin-top: 63px;
+    margin-top: 6%;
     display: flex;
     justify-content: space-between;
 }
@@ -196,7 +196,7 @@ a {
 .gap_box {
     height: 270px;
     width: 270px;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
 
 }
@@ -314,7 +314,7 @@ a {
 .gap2_box {
     height: 370px;
     width: 370px;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     box-sizing: border-box;
     margin-bottom: 30px;
@@ -350,7 +350,7 @@ a {
 
 .slider_table {
     height: 800px;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     padding: 0 98px;
     display: flex;
@@ -397,7 +397,7 @@ a {
 .mini_pic {
     width: 270px;
     height: 270px;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
 }
 
@@ -408,13 +408,8 @@ a {
     align-content: space-between
 }
 
-
-
 .pollow {
     width: 320px;
-}
-
-.pillow {
     margin-top: 0px;
 }
 
@@ -456,4 +451,11 @@ a {
     font-size: 22px;
     font-weight: 300;
     margin-bottom: 22px;
+}
+
+@media screen and (max-width: 700px) {
+    .slider_chair {
+        height: 100vh;
+
+    }
 }
