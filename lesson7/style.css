@@ -459,3 +459,129 @@ a {
 
     }
 }
+
+.contacts {
+    width: 225px;
+}
+
+.adress {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.cont_tag {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    margin-bottom: 24px;
+}
+
+.info_tag {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    margin-bottom: 24px;
+}
+
+.info_line {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    margin-right: 50px;
+    line-height: 1.7;
+}
+
+.footer_cont {
+    
+/*    box-sizing: border-box;*/
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.info_list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 90px;
+}
+
+.mail {
+    padding: 0px 20px;
+    border: 1px solid #d9dee1;
+    width: 310px;
+    height: 40px;
+    background: url(img/telega.png) no-repeat center right;
+    background-color: #ffffff;
+    
+}
+
+.stay_tag {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    margin-bottom: 24px;
+}
+
+.stay_message {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.stay_colunm {
+    width: 370px;
+    margin-left: 150px;
+}
+
+.right_line {
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    
+}
+
+.left_line {
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    
+}
+
+
+
+.downline {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    height: 384px;
+    padding: 120px 98px 30px 98px;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+}
+
+.ending {
+    text-align: center;
+}
