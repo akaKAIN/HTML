@@ -253,7 +253,7 @@ a {
     width: 684px;
     padding: 0px 260px 30px 50px;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -293,7 +293,7 @@ a {
     width: 684px;
     padding: 0px 260px 30px 50px;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -318,7 +318,7 @@ a {
     background-position: center;
     box-sizing: border-box;
     margin-bottom: 30px;
-    
+
 }
 
 .gap2_header {
@@ -356,7 +356,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-        
+
 }
 
 .tr_table {
@@ -406,7 +406,6 @@ a {
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between
-
 }
 
 
@@ -417,4 +416,44 @@ a {
 
 .pillow {
     margin-top: 0px;
+}
+
+.mobile_block {
+    height: 516px;
+    padding: 98px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.app_pic {
+    height: 40px;
+    width: 135px;
+    margin-right: 10px;
+}
+
+.mob_tag {
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #6c6c6c;
+    letter-spacing: 1.8px;
+    margin-bottom: 22px;
+}
+
+.mob_name {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.mob_datail {
+    width: 450px;
+    color: #6c6c6c;
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 22px;
 }
