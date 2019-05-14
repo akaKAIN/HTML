@@ -106,7 +106,6 @@ a {
     align-items: center;
     justify-content: center;
     margin-bottom: 14px;
-    align-self: flex-end;
 }
 
 .circle {
@@ -353,13 +352,16 @@ a {
     height: 800px;
     background-size: contain;
     background-position: center;
-    padding: 0 100px;
+    padding: 0 98px;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
         
 }
 
 .tr_table {
     color: #e53935;
+    margin-top: 287px;
 }
 
 .slider_text {
@@ -368,4 +370,51 @@ a {
     align-items: flex-start;
     justify-content: center;
 
+}
+
+.gap3_block {
+    height: 572px;
+    padding: 120px 98px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pik_left {
+    height: 570px;
+    width: 1080px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 30px;
+    float: left;
+    padding: 32px 0px 32px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.mini_pic {
+    width: 270px;
+    height: 270px;
+    background-size: contain;
+    background-position: center;
+}
+
+.pic_right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between
+
+}
+
+
+
+.pollow {
+    width: 320px;
+}
+
+.pillow {
+    margin-top: 0px;
 }
